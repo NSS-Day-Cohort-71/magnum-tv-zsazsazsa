@@ -1,5 +1,6 @@
 import { actorHTML } from "./actors.js";
 import { genreHTML } from "./genres.js";
+import { tvShowHTML } from "./shows.js"
 
 const content = document.querySelector("#content")
 
@@ -18,7 +19,7 @@ const applicationHTML = `
 
     <article id="tvshows">
         <h2>Tv Shows</h2>
-        
+        ${tvShowHTML()}
     </article>
 `
 
