@@ -1,4 +1,5 @@
 import { actorHTML } from "./actors.js";
+import { genreHTML } from "./genres.js";
 
 const content = document.querySelector("#content")
 
@@ -11,7 +12,7 @@ const applicationHTML = `
         </section>
         <section class="detail--column">
             <h2>Genres</h2>
-            
+            ${genreHTML()}
         </section>
     </article>
 
